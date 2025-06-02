@@ -21,10 +21,13 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@extension/env": "workspace:*",
+    "@extension/i18n": "workspace:*",
     "@extension/shared": "workspace:*",
     "@extension/ui": "workspace:*",
-    "@extension/i18n": "workspace:*",
-    "@extension/env": "workspace:*"
+    "file-saver": "^2.0.5",
+    "jszip": "^3.10.1",
+    "papaparse": "^5.5.3"
   },
   "devDependencies": {
     "@extension/hmr": "workspace:*",
